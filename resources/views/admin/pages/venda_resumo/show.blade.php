@@ -24,7 +24,7 @@
         <section class="card-body">
             <form class="ajax_submit" action="{{ route('venda-resumo.pesquisar.do') }}" method="POST" enctype="multipart/form-data">
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-md-3 col-sm-12">
                         <div class="form-group">
                             <label for="">PDV</label>
                             <select class="form-control" name="TransacaoTerminal" id="TransacaoTerminal" required>
@@ -32,7 +32,7 @@
                             </select>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-md-3 col-sm-12">
                         <div class="form-group">
                             <label for="">Operadora</label>
                             <select class="form-control" name="RedeNome" id="RedeNome" required>
@@ -43,7 +43,7 @@
                             </select>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-md-3 col-sm-12">
                         <div class="form-group">
                             <label for="">Bandeira</label>
                             <select class="form-control" name="BandeiraNome" id="BandeiraNome" required>
@@ -54,7 +54,7 @@
                             </select>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-md-3 col-sm-12">
                         <div class="form-group">
                             <label for="">Grupo Serviço</label>
                             <select class="form-control" name="GrupoServicoDescricao" id="GrupoServicoDescricao" required>
@@ -67,9 +67,9 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-5">
+                    <div class="col-md-5 col-sm-12">
                         <div class="row">
-                            <div class="form-group col-6">
+                            <div class="form-group col-md-6 col-sm-12">
                                 <label for="">Data</label>
                                 <div class="input-group input-group-sm">
                                     <div class="input-group-prepend">
@@ -78,7 +78,7 @@
                                     <input class="form-control" type="date" name="data_inicio" id="data_inicio" required>
                                 </div>
                             </div>
-                            <div class="form-group col-6">
+                            <div class="form-group col-md-6 col-sm-12">
                                 <div class="input-group mt-4 pt-1 input-group-sm">
                                     <div class="input-group-prepend input-group-sm">
                                         <span class="input-group-text">ATÉ</span>
@@ -88,9 +88,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-md-4 col-sm-12">
                         <div class="row">
-                            <div class="form-group col-6">
+                            <div class="form-group col-md-6 col-sm-12">
                                 <label for="">Horário</label>
                                 <div class="input-group input-group-sm input-group-sm">
                                     <div class="input-group-prepend">
@@ -99,7 +99,7 @@
                                     <input class="form-control" type="time" name="HoraInicio" id="HoraInicio">
                                 </div>
                             </div>
-                            <div class="form-group col-6">
+                            <div class="form-group col-md-6 col-sm-12">
                                 <div class="input-group pt-1 mt-4 input-group-sm">
                                     <div class="input-group-prepend">
                                         <span class="input-group-text">ATÉ</span>
@@ -109,7 +109,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-md-3 col-sm-12">
                         <div class="form-group">
                             <label for="">Tipo do relatório</label>
                             <select class="form-control" name="tipo_relatorio" id="tipo_relatorio" required>
